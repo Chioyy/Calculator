@@ -1,0 +1,54 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.border {
+  position: relative;
+  width: 300px;
+  height: 350px;
+  padding: 12px 0px;
+  margin: 8% auto auto auto;
+  display: table;
+  border: 5px solid;
+  border-radius: 20px;
+  box-sizing: border-box;
+  background-color: rgb(70, 65, 70);
+}
+.display {
+  height: 30px;
+  margin: 5% 7% 2% 5%;
+  text-align: right;
+  background-color: rgb(247, 247, 247);
+  border-radius: 10px;
+}
+.numbers {
+  position:relative;
+  height: 50px;
+  margin: 8% auto auto 3%;
+  display: table;
+}
+.button {
+  position:relative;
+  float: left;
+  width: 60px;
+  height: 45px;
+  margin: 2% auto auto 2%;
+  border: 2px solid;
+  border-radius: 5px;
+  box-sizing: border-box;
+  background-color: rgb(225, 226, 247);
+}
+h3 {
+  text-align: center;
+  margin-top: 6px;
+  font-size: 28px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+}
+.displaynumber {
+  text-align: inherit;
+  margin-right: 9px;
+  font-size: 28px;
+  font-family: 'Poppins', sans-serif;
+}
